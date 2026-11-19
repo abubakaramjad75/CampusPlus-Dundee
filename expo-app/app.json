@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "CampusPulse Dundee",
+    "slug": "campuspulse-dundee",
+    "version": "1.0.0",
+    "scheme": "campuspulse",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "uk.ac.dundee.cs32005.campuspulse",
+      "infoPlist": {
+        "NSCameraUsageDescription": "CampusPulse Dundee uses the camera to scan study-space QR codes.",
+        "NSLocationWhenInUseUsageDescription": "CampusPulse Dundee uses your location to calculate walking distances around City Campus."
+      }
+    },
+    "android": {
+      "package": "uk.ac.dundee.cs32005.campuspulse",
+      "permissions": ["CAMERA", "ACCESS_FINE_LOCATION"]
+    },
+    "plugins": ["expo-router", "expo-camera", "expo-location", "expo-sqlite"]
+  }
+}

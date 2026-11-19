@@ -1,0 +1,6 @@
+{
+  "name": "CampusPulse Dundee",
+  "description": "Your Campus. Your Community. Your University. Independent student campus guide, study space finder, QR check-in, and campus navigation for the University of Dundee.",
+  "requestFramePermissions": ["camera", "geolocation"],
+  "majorCapabilities": []
+}
